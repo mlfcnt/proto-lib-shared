@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "main": "build/index.js",
   "exports": {
-    ".": "./build/index.js",
-    "./time": "./build/time.js"
+    "./time": "./build/time/index.js"
   },
   "module": "build/index.mjs",
   "types": "build/types/index.d.ts",
