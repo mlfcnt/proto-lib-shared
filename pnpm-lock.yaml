@@ -2,7 +2,6 @@ lockfileVersion: 5.4
 
 specifiers:
   '@babel/core': ^7.20.7
-  '@mxssfd/typedoc-theme': ^1.1.1
   '@rollup/plugin-babel': ^6.0.3
   '@rollup/plugin-commonjs': ^24.0.1
   '@rollup/plugin-terser': ^0.4.0
@@ -28,7 +27,6 @@ specifiers:
 
 devDependencies:
   '@babel/core': 7.21.8
-  '@mxssfd/typedoc-theme': 1.1.1_typedoc@0.24.6
   '@rollup/plugin-babel': 6.0.3_vpzrg42m3mj4iz27wsg2fpjyfy
   '@rollup/plugin-commonjs': 24.1.0_rollup@3.21.5
   '@rollup/plugin-terser': 0.4.1_rollup@3.21.5
@@ -314,15 +312,6 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
-    dev: true
-
-  /@mxssfd/typedoc-theme/1.1.1_typedoc@0.24.6:
-    resolution: {integrity: sha512-XhXy2MDoMJFeHgbE0cTxpB3K8AizQMJcm6gvf9lqNwfN6+ZfDnmIZub6lCuDgpL0O0fvckKTq7fGSP6XIU/17Q==}
-    engines: {node: '>= 14'}
-    peerDependencies:
-      typedoc: ^0.24.1
-    dependencies:
-      typedoc: 0.24.6_typescript@5.0.4
     dev: true
 
   /@nodelib/fs.scandir/2.1.5:
