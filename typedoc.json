@@ -1,5 +1,5 @@
 {
   "entryPointStrategy": "expand",
   "out": "docs",
-  "entryPoints": ["./src/time"]
+  "entryPoints": ["./src/time", "./src/colors"]
 }
