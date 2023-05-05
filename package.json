@@ -1,11 +1,9 @@
 {
   "name": "@ads/shared",
   "version": "0.0.1",
-  "main": "build/index.js",
   "exports": {
     "./time": "./build/time/index.js"
   },
-  "module": "build/index.mjs",
   "types": "build/types/index.d.ts",
   "files": [
     "build"
