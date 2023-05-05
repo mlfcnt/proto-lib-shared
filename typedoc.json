@@ -1,0 +1,5 @@
+{
+  "entryPointStrategy": "expand",
+  "entryPoints": ["./time"],
+  "out": "docs"
+}
