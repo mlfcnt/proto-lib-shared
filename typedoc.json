@@ -1,12 +1,13 @@
 {
-  "entryPointStrategy": "expand",
+  "entryPointStrategy": "resolve",
   "out": "docs",
-  "entryPoints": ["./src/time", "./src/colors"],
   "visibilityFilters": {
     "protected": false,
     "private": false,
     "inherited": false,
     "external": false
   },
-  "readme": "none"
+  "readme": "none",
+  "entryPoints": ["./src/colors", "./src/time"],
+  "commentStyle": "jsdoc"
 }
