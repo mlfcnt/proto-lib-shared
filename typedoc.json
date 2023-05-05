@@ -1,6 +1,5 @@
 {
-  "entryPointStrategy": "packages",
-  "entryPoints": ["./docs"],
+  "entryPointStrategy": "expand",
   "out": "docs",
   "categorizeByGroup": true
 }
