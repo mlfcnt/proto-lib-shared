@@ -14,7 +14,9 @@
     "declarationMap": true,
     "declarationDir": "build/types",
     "baseUrl": "./src",
-    "types": ["node"]
+    "types": ["node"],
+    "rootDir": "./src",
+    "outDir": "./build"
   },
   "exclude": [
     "node_modules",

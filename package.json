@@ -2,6 +2,10 @@
   "name": "@ads/shared",
   "version": "0.0.1",
   "main": "build/index.js",
+  "exports": {
+    ".": "./build/index.js",
+    "./time": "./build/time.js"
+  },
   "module": "build/index.mjs",
   "types": "build/types/index.d.ts",
   "files": [
@@ -11,7 +15,7 @@
   "license": "MIT",
   "scripts": {
     "build:clean": "rimraf build",
-    "build": "npx rimraf build && npx rollup -c",
+    "build": "npx tsc",
     "build:silent": "npx rimraf build && npx rollup -c --silent",
     "dev": "rollup -c -w",
     "test": "vitest run",

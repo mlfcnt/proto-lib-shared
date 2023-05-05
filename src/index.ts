@@ -1,1 +1,1 @@
-export * from "./time/minutesToSeconds";
+export * from "./time";
