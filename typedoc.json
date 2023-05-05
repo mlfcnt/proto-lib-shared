@@ -1,5 +1,5 @@
 {
   "entryPointStrategy": "expand",
   "out": "docs",
-  "categorizeByGroup": true
+  "entryPoints": ["./src/time"]
 }
